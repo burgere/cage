@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		BBDF8B4E2344F88C0036424C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF8B4D2344F88C0036424C /* AppDelegate.swift */; };
 		BBDF8B502344F88C0036424C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF8B4F2344F88C0036424C /* ViewController.swift */; };
-		BBDF8B532344F88C0036424C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDF8B512344F88C0036424C /* Main.storyboard */; };
 		BBDF8B552344F88D0036424C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDF8B542344F88D0036424C /* Assets.xcassets */; };
 		BBDF8B582344F88D0036424C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDF8B562344F88D0036424C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		BBDF8B4A2344F88C0036424C /* cage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDF8B4D2344F88C0036424C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBDF8B4F2344F88C0036424C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BBDF8B522344F88C0036424C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBDF8B542344F88D0036424C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBDF8B572344F88D0036424C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBDF8B592344F88D0036424C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				BBDF8B4D2344F88C0036424C /* AppDelegate.swift */,
 				BBDF8B4F2344F88C0036424C /* ViewController.swift */,
-				BBDF8B512344F88C0036424C /* Main.storyboard */,
 				BBDF8B542344F88D0036424C /* Assets.xcassets */,
 				BBDF8B562344F88D0036424C /* LaunchScreen.storyboard */,
 				BBDF8B592344F88D0036424C /* Info.plist */,
@@ -124,7 +121,6 @@
 			files = (
 				BBDF8B582344F88D0036424C /* LaunchScreen.storyboard in Resources */,
 				BBDF8B552344F88D0036424C /* Assets.xcassets in Resources */,
-				BBDF8B532344F88C0036424C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,14 +139,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BBDF8B512344F88C0036424C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BBDF8B522344F88C0036424C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BBDF8B562344F88D0036424C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +271,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPH274X46;
 				INFOPLIST_FILE = cage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPH274X46;
 				INFOPLIST_FILE = cage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
