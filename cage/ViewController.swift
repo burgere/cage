@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  cage
-//
-//  Created by Eric Burger on 10/2/19.
-//  Copyright © 2019 Eric Burger. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -21,8 +13,8 @@ class ViewController: UIViewController {
         view.addSubview(imageView)
         
         NSLayoutConstraint.activate([
-            imageView.heightAnchor.constraint(equalToConstant: 100.0),
-            imageView.widthAnchor.constraint(equalToConstant: 100.0)
+            imageView.heightAnchor.constraint(equalToConstant: 200.0),
+            imageView.widthAnchor.constraint(equalToConstant: 200.0)
         ])
     }
     
